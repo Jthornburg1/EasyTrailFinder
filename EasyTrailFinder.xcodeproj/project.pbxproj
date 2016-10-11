@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D29DB0051DA4166A0041B8B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29DB0041DA4166A0041B8B6 /* AppDelegate.swift */; };
+		D29DB0071DA4166A0041B8B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29DB0061DA4166A0041B8B6 /* ViewController.swift */; };
+		D29DB00A1DA4166A0041B8B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D29DB0081DA4166A0041B8B6 /* Main.storyboard */; };
+		D29DB00D1DA4166A0041B8B6 /* EasyTrailFinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D29DB00B1DA4166A0041B8B6 /* EasyTrailFinder.xcdatamodeld */; };
+		D29DB00F1DA4166A0041B8B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D29DB00E1DA4166A0041B8B6 /* Assets.xcassets */; };
+		D29DB0121DA4166A0041B8B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D29DB0101DA4166A0041B8B6 /* LaunchScreen.storyboard */; };
+		D29DB01D1DA4166A0041B8B6 /* EasyTrailFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29DB01C1DA4166A0041B8B6 /* EasyTrailFinderTests.swift */; };
+		D29DB0281DA4166A0041B8B6 /* EasyTrailFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29DB0271DA4166A0041B8B6 /* EasyTrailFinderUITests.swift */; };
+		D29DB03C1DA422440041B8B6 /* FirstTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D29DB03B1DA422440041B8B6 /* FirstTableViewCell.xib */; };
+		D29DB03E1DA423020041B8B6 /* FirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29DB03D1DA423020041B8B6 /* FirstTableViewCell.swift */; };
+		D29DB0401DA4242E0041B8B6 /* JsonDigger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29DB03F1DA4242E0041B8B6 /* JsonDigger.swift */; };
+		D29DB0431DA428550041B8B6 /* Trail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29DB0421DA428550041B8B6 /* Trail.swift */; };
+		D29DB0451DA42A340041B8B6 /* CallApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29DB0441DA42A340041B8B6 /* CallApi.swift */; };
+		D29DB0471DA4320C0041B8B6 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29DB0461DA4320C0041B8B6 /* String+Extensions.swift */; };
+		D29DB0491DA44C660041B8B6 /* AlertMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29DB0481DA44C660041B8B6 /* AlertMaker.swift */; };
+		D29DB04B1DA44D640041B8B6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29DB04A1DA44D640041B8B6 /* DetailViewController.swift */; };
+		D2FD66DC1DA5A34D0086336C /* DetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2FD66DB1DA5A34D0086336C /* DetailCell.xib */; };
+		D2FD66DE1DA5A3BC0086336C /* DetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FD66DD1DA5A3BC0086336C /* DetailCell.swift */; };
+		D2FD66E01DA5AC480086336C /* PropertSorter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FD66DF1DA5AC480086336C /* PropertSorter.swift */; };
+		D2FD66E21DA5AE6B0086336C /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FD66E11DA5AE6B0086336C /* UIImageView+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D29DB0191DA4166A0041B8B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D29DAFF91DA4166A0041B8B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D29DB0001DA4166A0041B8B6;
+			remoteInfo = EasyTrailFinder;
+		};
+		D29DB0241DA4166A0041B8B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D29DAFF91DA4166A0041B8B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D29DB0001DA4166A0041B8B6;
+			remoteInfo = EasyTrailFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D29DB0011DA4166A0041B8B6 /* EasyTrailFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyTrailFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D29DB0041DA4166A0041B8B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D29DB0061DA4166A0041B8B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D29DB0091DA4166A0041B8B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D29DB00C1DA4166A0041B8B6 /* EasyTrailFinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EasyTrailFinder.xcdatamodel; sourceTree = "<group>"; };
+		D29DB00E1DA4166A0041B8B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D29DB0111DA4166A0041B8B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D29DB0131DA4166A0041B8B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D29DB0181DA4166A0041B8B6 /* EasyTrailFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyTrailFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D29DB01C1DA4166A0041B8B6 /* EasyTrailFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyTrailFinderTests.swift; sourceTree = "<group>"; };
+		D29DB01E1DA4166A0041B8B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D29DB0231DA4166A0041B8B6 /* EasyTrailFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyTrailFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D29DB0271DA4166A0041B8B6 /* EasyTrailFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyTrailFinderUITests.swift; sourceTree = "<group>"; };
+		D29DB0291DA4166A0041B8B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D29DB03B1DA422440041B8B6 /* FirstTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstTableViewCell.xib; sourceTree = "<group>"; };
+		D29DB03D1DA423020041B8B6 /* FirstTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTableViewCell.swift; sourceTree = "<group>"; };
+		D29DB03F1DA4242E0041B8B6 /* JsonDigger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonDigger.swift; sourceTree = "<group>"; };
+		D29DB0421DA428550041B8B6 /* Trail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trail.swift; sourceTree = "<group>"; };
+		D29DB0441DA42A340041B8B6 /* CallApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallApi.swift; sourceTree = "<group>"; };
+		D29DB0461DA4320C0041B8B6 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		D29DB0481DA44C660041B8B6 /* AlertMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertMaker.swift; sourceTree = "<group>"; };
+		D29DB04A1DA44D640041B8B6 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D2FD66DB1DA5A34D0086336C /* DetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailCell.xib; sourceTree = "<group>"; };
+		D2FD66DD1DA5A3BC0086336C /* DetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailCell.swift; sourceTree = "<group>"; };
+		D2FD66DF1DA5AC480086336C /* PropertSorter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertSorter.swift; sourceTree = "<group>"; };
+		D2FD66E11DA5AE6B0086336C /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D29DAFFE1DA4166A0041B8B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D29DB0151DA4166A0041B8B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D29DB0201DA4166A0041B8B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D29DAFF81DA4166A0041B8B6 = {
+			isa = PBXGroup;
+			children = (
+				D29DB0031DA4166A0041B8B6 /* EasyTrailFinder */,
+				D29DB01B1DA4166A0041B8B6 /* EasyTrailFinderTests */,
+				D29DB0261DA4166A0041B8B6 /* EasyTrailFinderUITests */,
+				D29DB0021DA4166A0041B8B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D29DB0021DA4166A0041B8B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D29DB0011DA4166A0041B8B6 /* EasyTrailFinder.app */,
+				D29DB0181DA4166A0041B8B6 /* EasyTrailFinderTests.xctest */,
+				D29DB0231DA4166A0041B8B6 /* EasyTrailFinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D29DB0031DA4166A0041B8B6 /* EasyTrailFinder */ = {
+			isa = PBXGroup;
+			children = (
+				D29DB0411DA428310041B8B6 /* Models */,
+				D29DB03A1DA416F40041B8B6 /* Extensions */,
+				D29DB0391DA416E90041B8B6 /* Firebase */,
+				D29DB0381DA416DB0041B8B6 /* Cells */,
+				D29DB0371DA416BE0041B8B6 /* ViewControllers */,
+				D29DB0361DA416AD0041B8B6 /* Networking */,
+				D29DB0351DA416A20041B8B6 /* Utilities */,
+				D29DB0041DA4166A0041B8B6 /* AppDelegate.swift */,
+				D29DB0081DA4166A0041B8B6 /* Main.storyboard */,
+				D29DB00E1DA4166A0041B8B6 /* Assets.xcassets */,
+				D29DB0101DA4166A0041B8B6 /* LaunchScreen.storyboard */,
+				D29DB0131DA4166A0041B8B6 /* Info.plist */,
+				D29DB00B1DA4166A0041B8B6 /* EasyTrailFinder.xcdatamodeld */,
+			);
+			path = EasyTrailFinder;
+			sourceTree = "<group>";
+		};
+		D29DB01B1DA4166A0041B8B6 /* EasyTrailFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				D29DB01C1DA4166A0041B8B6 /* EasyTrailFinderTests.swift */,
+				D29DB01E1DA4166A0041B8B6 /* Info.plist */,
+			);
+			path = EasyTrailFinderTests;
+			sourceTree = "<group>";
+		};
+		D29DB0261DA4166A0041B8B6 /* EasyTrailFinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D29DB0271DA4166A0041B8B6 /* EasyTrailFinderUITests.swift */,
+				D29DB0291DA4166A0041B8B6 /* Info.plist */,
+			);
+			path = EasyTrailFinderUITests;
+			sourceTree = "<group>";
+		};
+		D29DB0351DA416A20041B8B6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D29DB03F1DA4242E0041B8B6 /* JsonDigger.swift */,
+				D29DB0481DA44C660041B8B6 /* AlertMaker.swift */,
+				D2FD66DF1DA5AC480086336C /* PropertSorter.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		D29DB0361DA416AD0041B8B6 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				D29DB0441DA42A340041B8B6 /* CallApi.swift */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		D29DB0371DA416BE0041B8B6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D29DB0061DA4166A0041B8B6 /* ViewController.swift */,
+				D29DB04A1DA44D640041B8B6 /* DetailViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D29DB0381DA416DB0041B8B6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D29DB03B1DA422440041B8B6 /* FirstTableViewCell.xib */,
+				D29DB03D1DA423020041B8B6 /* FirstTableViewCell.swift */,
+				D2FD66DB1DA5A34D0086336C /* DetailCell.xib */,
+				D2FD66DD1DA5A3BC0086336C /* DetailCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		D29DB0391DA416E90041B8B6 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Firebase;
+			sourceTree = "<group>";
+		};
+		D29DB03A1DA416F40041B8B6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D29DB0461DA4320C0041B8B6 /* String+Extensions.swift */,
+				D2FD66E11DA5AE6B0086336C /* UIImageView+Extensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		D29DB0411DA428310041B8B6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D29DB0421DA428550041B8B6 /* Trail.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D29DB0001DA4166A0041B8B6 /* EasyTrailFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D29DB02C1DA4166A0041B8B6 /* Build configuration list for PBXNativeTarget "EasyTrailFinder" */;
+			buildPhases = (
+				D29DAFFD1DA4166A0041B8B6 /* Sources */,
+				D29DAFFE1DA4166A0041B8B6 /* Frameworks */,
+				D29DAFFF1DA4166A0041B8B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyTrailFinder;
+			productName = EasyTrailFinder;
+			productReference = D29DB0011DA4166A0041B8B6 /* EasyTrailFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D29DB0171DA4166A0041B8B6 /* EasyTrailFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D29DB02F1DA4166A0041B8B6 /* Build configuration list for PBXNativeTarget "EasyTrailFinderTests" */;
+			buildPhases = (
+				D29DB0141DA4166A0041B8B6 /* Sources */,
+				D29DB0151DA4166A0041B8B6 /* Frameworks */,
+				D29DB0161DA4166A0041B8B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D29DB01A1DA4166A0041B8B6 /* PBXTargetDependency */,
+			);
+			name = EasyTrailFinderTests;
+			productName = EasyTrailFinderTests;
+			productReference = D29DB0181DA4166A0041B8B6 /* EasyTrailFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D29DB0221DA4166A0041B8B6 /* EasyTrailFinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D29DB0321DA4166A0041B8B6 /* Build configuration list for PBXNativeTarget "EasyTrailFinderUITests" */;
+			buildPhases = (
+				D29DB01F1DA4166A0041B8B6 /* Sources */,
+				D29DB0201DA4166A0041B8B6 /* Frameworks */,
+				D29DB0211DA4166A0041B8B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D29DB0251DA4166A0041B8B6 /* PBXTargetDependency */,
+			);
+			name = EasyTrailFinderUITests;
+			productName = EasyTrailFinderUITests;
+			productReference = D29DB0231DA4166A0041B8B6 /* EasyTrailFinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D29DAFF91DA4166A0041B8B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Jon Thornburg";
+				TargetAttributes = {
+					D29DB0001DA4166A0041B8B6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3PMK8LZPU8;
+						ProvisioningStyle = Automatic;
+					};
+					D29DB0171DA4166A0041B8B6 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D29DB0001DA4166A0041B8B6;
+					};
+					D29DB0221DA4166A0041B8B6 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D29DB0001DA4166A0041B8B6;
+					};
+				};
+			};
+			buildConfigurationList = D29DAFFC1DA4166A0041B8B6 /* Build configuration list for PBXProject "EasyTrailFinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D29DAFF81DA4166A0041B8B6;
+			productRefGroup = D29DB0021DA4166A0041B8B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D29DB0001DA4166A0041B8B6 /* EasyTrailFinder */,
+				D29DB0171DA4166A0041B8B6 /* EasyTrailFinderTests */,
+				D29DB0221DA4166A0041B8B6 /* EasyTrailFinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D29DAFFF1DA4166A0041B8B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29DB0121DA4166A0041B8B6 /* LaunchScreen.storyboard in Resources */,
+				D29DB00F1DA4166A0041B8B6 /* Assets.xcassets in Resources */,
+				D29DB03C1DA422440041B8B6 /* FirstTableViewCell.xib in Resources */,
+				D29DB00A1DA4166A0041B8B6 /* Main.storyboard in Resources */,
+				D2FD66DC1DA5A34D0086336C /* DetailCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D29DB0161DA4166A0041B8B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D29DB0211DA4166A0041B8B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D29DAFFD1DA4166A0041B8B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2FD66E21DA5AE6B0086336C /* UIImageView+Extensions.swift in Sources */,
+				D29DB0071DA4166A0041B8B6 /* ViewController.swift in Sources */,
+				D2FD66E01DA5AC480086336C /* PropertSorter.swift in Sources */,
+				D2FD66DE1DA5A3BC0086336C /* DetailCell.swift in Sources */,
+				D29DB0491DA44C660041B8B6 /* AlertMaker.swift in Sources */,
+				D29DB0401DA4242E0041B8B6 /* JsonDigger.swift in Sources */,
+				D29DB0051DA4166A0041B8B6 /* AppDelegate.swift in Sources */,
+				D29DB0451DA42A340041B8B6 /* CallApi.swift in Sources */,
+				D29DB0471DA4320C0041B8B6 /* String+Extensions.swift in Sources */,
+				D29DB03E1DA423020041B8B6 /* FirstTableViewCell.swift in Sources */,
+				D29DB04B1DA44D640041B8B6 /* DetailViewController.swift in Sources */,
+				D29DB0431DA428550041B8B6 /* Trail.swift in Sources */,
+				D29DB00D1DA4166A0041B8B6 /* EasyTrailFinder.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D29DB0141DA4166A0041B8B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29DB01D1DA4166A0041B8B6 /* EasyTrailFinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D29DB01F1DA4166A0041B8B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29DB0281DA4166A0041B8B6 /* EasyTrailFinderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D29DB01A1DA4166A0041B8B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D29DB0001DA4166A0041B8B6 /* EasyTrailFinder */;
+			targetProxy = D29DB0191DA4166A0041B8B6 /* PBXContainerItemProxy */;
+		};
+		D29DB0251DA4166A0041B8B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D29DB0001DA4166A0041B8B6 /* EasyTrailFinder */;
+			targetProxy = D29DB0241DA4166A0041B8B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D29DB0081DA4166A0041B8B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D29DB0091DA4166A0041B8B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D29DB0101DA4166A0041B8B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D29DB0111DA4166A0041B8B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D29DB02A1DA4166A0041B8B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D29DB02B1DA4166A0041B8B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D29DB02D1DA4166A0041B8B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3PMK8LZPU8;
+				INFOPLIST_FILE = EasyTrailFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clickHereLabs.EasyTrailFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D29DB02E1DA4166A0041B8B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3PMK8LZPU8;
+				INFOPLIST_FILE = EasyTrailFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clickHereLabs.EasyTrailFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D29DB0301DA4166A0041B8B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EasyTrailFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clickHereLabs.EasyTrailFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyTrailFinder.app/EasyTrailFinder";
+			};
+			name = Debug;
+		};
+		D29DB0311DA4166A0041B8B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EasyTrailFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clickHereLabs.EasyTrailFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyTrailFinder.app/EasyTrailFinder";
+			};
+			name = Release;
+		};
+		D29DB0331DA4166A0041B8B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = EasyTrailFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clickHereLabs.EasyTrailFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = EasyTrailFinder;
+			};
+			name = Debug;
+		};
+		D29DB0341DA4166A0041B8B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = EasyTrailFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clickHereLabs.EasyTrailFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = EasyTrailFinder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D29DAFFC1DA4166A0041B8B6 /* Build configuration list for PBXProject "EasyTrailFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D29DB02A1DA4166A0041B8B6 /* Debug */,
+				D29DB02B1DA4166A0041B8B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D29DB02C1DA4166A0041B8B6 /* Build configuration list for PBXNativeTarget "EasyTrailFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D29DB02D1DA4166A0041B8B6 /* Debug */,
+				D29DB02E1DA4166A0041B8B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D29DB02F1DA4166A0041B8B6 /* Build configuration list for PBXNativeTarget "EasyTrailFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D29DB0301DA4166A0041B8B6 /* Debug */,
+				D29DB0311DA4166A0041B8B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D29DB0321DA4166A0041B8B6 /* Build configuration list for PBXNativeTarget "EasyTrailFinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D29DB0331DA4166A0041B8B6 /* Debug */,
+				D29DB0341DA4166A0041B8B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D29DB00B1DA4166A0041B8B6 /* EasyTrailFinder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D29DB00C1DA4166A0041B8B6 /* EasyTrailFinder.xcdatamodel */,
+			);
+			currentVersion = D29DB00C1DA4166A0041B8B6 /* EasyTrailFinder.xcdatamodel */;
+			path = EasyTrailFinder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D29DAFF91DA4166A0041B8B6 /* Project object */;
+}
